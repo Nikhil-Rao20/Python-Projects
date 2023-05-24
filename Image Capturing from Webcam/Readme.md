@@ -10,9 +10,9 @@ Welcome to Webcam Photo Saver, a fun and easy-to-use Python project that lets yo
 
 - **Save Options**: Choose the destination folder where you want to save your photos. Webcam Photo Saver ensures that your images are neatly organized and easy to find.
 
-- **Image Preview**: Before saving, Webcam Photo Saver displays a preview of the captured photo, so you can review and make any desired adjustments before saving it permanently.
+- **Image Saving Confirmation**: After saving, Webcam Photo Saver displays a confirmation message of captured photo that is saved to your file destination successfully
 
-- **Multiple Formats**: Photos can be saved in various formats, including JPEG, PNG, and GIF, allowing you to select the format that best suits your needs.
+- **Format**: Photos can be saved in JPG format allowing you to capture the image in best format that best suits.
 
 ## Getting Started
 
@@ -32,7 +32,13 @@ Welcome to Webcam Photo Saver, a fun and easy-to-use Python project that lets yo
    python webcam_photo_saver.py
    ```
 
-5. Follow the on-screen instructions to capture and save your webcam photos.
+## Instructions to capture image
+1) Run the first while loop and then a new frame window will appear
+2) Pose to the webcam to get a nice and beautiful photo
+3) Click 'S' key on the keyboard to save the photo to the declared destination path
+4) When you open the jupyter notebook you will see the number of images saved to the destination path
+5) After clicking your pictures press 'ESC" on keyboard to exit the Image capturing frame
+
 
 ## Contributing
 
